@@ -53,7 +53,8 @@ describe('saludo(idioma)', function() {
   it('should return \'Guten Tag!\' for aleman', function() {
     expect(saludo('aleman')).toBe('Guten Tag!');
   });
-  it('should return \'Hola!\' for ingles', function() {
+  //Tuve que corregir el string, pues validaba "Hola!" en vez de "Hello!"
+  it('should return \'Hello!\' for ingles', function() {
     expect(saludo('ingles')).toBe('Hello!');
   });
   it('should return \'Ni Hao!\' for mandarin', function() {
