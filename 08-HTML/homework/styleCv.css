@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://flevix.com/wp-content/uploads/2019/12/Live-Background-1.svg");
+}
+
+#header{
+    text-align: center;
+    font-size: 25px;
+}
+
+.components h2{
+    color :seagreen;
+}
+
+#photo{
+    text-align: center;
+}
+
+#photo img{
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid rgba(241, 238, 38, 0.877);
+}
+
+footer h4{
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    border:1px solid black;
+}
